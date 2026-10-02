@@ -1,38 +1,99 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="URF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>course</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A clearer way to bring your ideas to life." />
+  <title>Forma — Make room for better ideas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <header class="navbar">
-
-    <nav class="navbar">
-      <div class="logo">MySite</div>
-      <div class="links">
-       <a href="#">Home</a>
-       <a href="#">Features</a>
-       <a href="#">Pricing</a>
+  <main>
+    <section class="hero section-wrap" aria-labelledby="hero-title">
+      <header class="navbar">
+        <a class="logo" href="#top" aria-label="Forma home"><span class="logo-mark">f</span>forma</a>
+        <nav class="links" aria-label="Main navigation">
+          <a href="#features">Features</a>
+          <a href="#results">Our impact</a>
+        </nav>
+        <a class="nav-cta" href="#get-started">Let’s talk <span aria-hidden="true">↗</span></a>
+      </header>
+      <div class="hero-content" id="top">
+        <div class="hero-text">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> A little more room to think</p>
+          <h1 id="hero-title">Make room for <span>better ideas.</span></h1>
+          <p class="hero-copy">The calm, considered workspace for turning the things you imagine into the things you do.</p>
+          <a class="button-primary" id="get-started" href="mailto:hello@forma.example">Get started <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-art" role="img" aria-label="Colorful abstract illustration of a workspace">
+          <div class="art-sun"></div>
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-card"><span>GOOD THINGS<br />TAKE SHAPE.</span><span class="art-card-mark">✳</span></div>
+          <div class="art-plant plant-one"><i></i><i></i><i></i><b></b></div>
+          <div class="art-plant plant-two"><i></i><i></i><b></b></div>
+          <div class="art-base"></div>
+          <span class="art-caption">A place for what’s next.</span>
+        </div>
       </div>
-      <button class="signup">Sign Up</button>
-    </nav>
+      <div class="hero-note"><span>01</span> Ideas need space.</div>
+    </section>
 
+    <section class="features section-wrap" id="features" aria-labelledby="features-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Thoughtfully made</p>
+          <h2 id="features-title">Space to do<br />your best work.</h2>
+        </div>
+        <p class="section-intro">Less noise around the work. More room for the parts that matter.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card feature-main">
+          <span class="feature-index">01 / YOUR SPACE</span>
+          <div class="feature-graphic graphic-main" aria-hidden="true">
+            <div class="graphic-sheet sheet-back"></div><div class="graphic-sheet sheet-front"><span></span><span></span><span></span><b>Make<br />something<br />matter.</b></div>
+            <div class="graphic-spark">✳</div>
+          </div>
+          <div class="feature-copy"><h3>A home for the whole idea.</h3><p>Bring your notes, plans, and half-formed thoughts together in one clear view.</p></div>
+          <span class="feature-arrow" aria-hidden="true">↗</span>
+        </article>
+        <article class="feature-card feature-small feature-yellow">
+          <span class="feature-index">02 / FIND YOUR FLOW</span>
+          <div class="flow-art" aria-hidden="true"><span class="flow-line"></span><span class="flow-node node-one"></span><span class="flow-node node-two"></span><span class="flow-node node-three"></span><span class="flow-stamp">IN<br />MOTION</span></div>
+          <div class="feature-copy"><h3>Keep the good momentum.</h3><p>Small steps, visible progress. That’s how big things happen.</p></div>
+          <span class="feature-arrow" aria-hidden="true">↗</span>
+        </article>
+        <article class="feature-card feature-small feature-green">
+          <span class="feature-index">03 / BETTER TOGETHER</span>
+          <div class="people-art" aria-hidden="true"><span class="person person-one">A</span><span class="person person-two">J</span><span class="person person-three">M</span><span class="people-spark">✳</span></div>
+          <div class="feature-copy"><h3>Make it a shared thing.</h3><p>Good ideas grow when the right people have a seat at the table.</p></div>
+          <span class="feature-arrow" aria-hidden="true">↗</span>
+        </article>
+      </div>
+    </section>
 
-      <section class="hero">
-       <div class="hero-text">
-         <h1>Build faster, ship sooner</h1>
-         <p>A short line about what this product does.</p>
-         <button>Get Started</button>
-       </div>
-         <div class="hero-image">
-         <img src="<https://placehold.co/400x300>" alt="" />
-       </div>
-      </section>
-   </nav>
-  </header> 
-</body>
-</html>
+    <section class="results" id="results" aria-label="Forma by the numbers">
+      <div class="stats section-wrap">
+        <div class="stats-heading"><p class="eyebrow">A little progress adds up</p><h2>Good work,<br />in good company.</h2></div>
+        <div class="stat"><strong>12<span>k</span></strong><span class="stat-label">ideas in motion</span></div>
+        <div class="stat"><strong>86<span>%</span></strong><span class="stat-label">feel more focused</span></div>
+        <div class="stat"><strong>4.9<span>/5</span></strong><span class="stat-label">from our community</span></div>
+      </div>
+    </section>
+
+    <footer class="footer section-wrap">
+      <a class="logo footer-logo" href="#top"><span class="logo-mark">f</span>forma</a>
+      <p>Make room for what matters.</p>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="#features">Product</a><a href="mailto:hello@forma.example">Contact</a><a href="#top">Back to top ↑</a></nav>
+      <span class="copyright">© 2025 Forma Studio</span>
+    </footer>
+  </main>
+ </body>
+ </html>
